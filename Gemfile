@@ -13,6 +13,7 @@ gem "turbo-rails"
 gem "stimulus-rails"
 gem "jbuilder"
 gem 'minitest-reporters'
+gem 'rails-controller-testing'
 
 
 # Use Redis adapter to run Action Cable in production
