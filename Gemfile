@@ -14,6 +14,7 @@ gem "stimulus-rails"
 gem "jbuilder"
 gem 'minitest-reporters'
 gem 'rails-controller-testing'
+gem "bcrypt"
 
 
 # Use Redis adapter to run Action Cable in production
