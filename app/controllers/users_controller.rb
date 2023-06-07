@@ -13,6 +13,7 @@ class UsersController < ApplicationController
 
     if @user.save
       # handle a successful save
+      flash[:success] = "Welcome to ChatUp!"
       redirect_to @user
     else
       render 'new', status: :unprocessable_entity
